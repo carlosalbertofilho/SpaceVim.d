@@ -44,6 +44,8 @@ default_height = 30
 
 [[layers]]
   name = "lang#javascript"
+  auto_fix = true
+  enable_flow_syntax = true
 
 [[layers]]
     name = 'lang#c'
@@ -69,7 +71,5 @@ default_height = 30
   default_position = "bottom"
   default_height = 30
 
-[layers]
-  name = "lang#html"
-  emmet_leader_key = "<C-e>"
-  emmet_filetyps = ['html']
+[[layers]]
+  name = "lang#python"
