@@ -64,3 +64,12 @@ default_height = 30
 [[layers]]
   name = "lang#markdown"
 
+[[layers]]
+  name = "shell"
+  default_position = "bottom"
+  default_height = 30
+
+[layers]
+  name = "lang#html"
+  emmet_leader_key = "<C-e>"
+  emmet_filetyps = ['html']
